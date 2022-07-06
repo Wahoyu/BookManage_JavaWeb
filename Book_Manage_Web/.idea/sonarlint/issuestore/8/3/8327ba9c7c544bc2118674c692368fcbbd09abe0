@@ -1,0 +1,18 @@
+
+Ž
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(Ó‹ÊÍüÿÿÿÿ8ú±öèœ0
+r
+java:S1989""PHandle the following exception that could be thrown by "getWriter": IOException.(Û¹½¤ÿÿÿÿÿ8ú±öèœ0
+Ž
+java:S1989("lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(Ó‹ÊÍüÿÿÿÿ8ú±öèœ0
+v
+java:S1989."YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(Å ©ø8¤þŠéœ0
+]	java:S125/"<This block of commented-out lines of code should be removed.(Õ¡±ëùÿÿÿÿ8Ý¡ùèœ0
+p
+java:S19891"SHandle the following exception that could be thrown by "sendRedirect": IOException.(†œéœ8Š²öèœ0
+[
+java:S1128"9Remove this unused import 'com.book.service.BookService'.(æ€Žêýÿÿÿÿ8²Äœêœ0
+^
+java:S1128"BRemove this unused import 'com.book.service.impl.BookServiceImpl'.(Çåßu8²Äœêœ0
+h
+java:S1192"FDefine a constant instead of duplicating this literal "utf-8" 4 times.(Ó‹ÊÍüÿÿÿÿ8Š²öèœ0

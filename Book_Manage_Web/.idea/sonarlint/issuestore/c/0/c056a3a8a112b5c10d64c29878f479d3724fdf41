@@ -1,0 +1,12 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ
+‡
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(Ó‹ÊÍüÿÿÿÿ
+{
+java:S1989"YHandle the following exception that could be thrown by "parseInt": NumberFormatException.(ÛíÏ…ýÿÿÿÿ8‚íßêœ0
+p
+java:S1989"SHandle the following exception that could be thrown by "sendRedirect": IOException.(†œéœ8½øÔêœ0
+[
+java:S1128"9Remove this unused import 'com.book.service.BookService'.(æ€Žêýÿÿÿÿ8‚íßêœ0
+^
+java:S1128"BRemove this unused import 'com.book.service.impl.BookServiceImpl'.(Çåßu8‚íßêœ0

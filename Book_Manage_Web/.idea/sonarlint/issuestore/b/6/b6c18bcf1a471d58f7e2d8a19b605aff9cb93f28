@@ -1,0 +1,14 @@
+
+Ž
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(Ó‹ÊÍüÿÿÿÿ8ÄÕÒèœ0
+m
+java:S1989$"PHandle the following exception that could be thrown by "getWriter": IOException.(áœƒ–8ŒÃ’çœ0
+Ž
+java:S1989*"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(Ó‹ÊÍüÿÿÿÿ8Ê›Óèœ0
+y
+java:S19890"\Handle the following exception that could be thrown by "parseDouble": NumberFormatException.(Ì°–š8Å¼óçœ0
+]	java:S1251"<This block of commented-out lines of code should be removed.(Õ¡±ëùÿÿÿÿ8÷øÜèœ0
+o
+java:S19893"SHandle the following exception that could be thrown by "sendRedirect": IOException.(ðØ…[8ýíŽèœ0
+h
+java:S1192"FDefine a constant instead of duplicating this literal "utf-8" 4 times.(Ó‹ÊÍüÿÿÿÿ8Ê›Óèœ0
