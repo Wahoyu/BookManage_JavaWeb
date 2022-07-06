@@ -22,7 +22,7 @@ public interface BookService {
     List<Student> getStudentList();
     //借书
     void addBorrow(int sid,int bid);
-    //查看书籍
+    //查看全部书籍以及状况
     Map<Book,Boolean> getBookList();
     //删除书籍
     void deleteBook(int bid);

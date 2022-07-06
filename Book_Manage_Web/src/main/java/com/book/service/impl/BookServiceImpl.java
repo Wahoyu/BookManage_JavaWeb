@@ -16,6 +16,7 @@ import java.util.stream.Collectors;
  * @date 2022/7/4
  */
 public class BookServiceImpl implements BookService {
+    //获取借阅列表
     @Override
     public List<Borrow> getBorrorList() {
         //创建当前数据库连接对象
@@ -25,7 +26,7 @@ public class BookServiceImpl implements BookService {
             return mapper.getBorrowList();
         }
     }
-
+    //还书
     @Override
     public void returnBook(String id) {
         //创建当前数据库连接对象
@@ -35,7 +36,7 @@ public class BookServiceImpl implements BookService {
             mapper.deleteBorrow(id);
         }
     }
-
+    //获取还能借的书
     @Override
     public List<Book> getActiveBookList() {
         Set<Integer> set = new HashSet();
@@ -50,7 +51,7 @@ public class BookServiceImpl implements BookService {
                         .collect(Collectors.toList());
         }
     }
-
+    //获取全部学生信息
     @Override
     public List<Student> getStudentList() {
         //创建当前数据库连接对象
@@ -60,7 +61,7 @@ public class BookServiceImpl implements BookService {
             return mapper.getStudentList();
         }
     }
-
+    //添加借阅信息
     @Override
     public void addBorrow(int sid, int bid) {
         //创建当前数据库连接对象
@@ -69,7 +70,7 @@ public class BookServiceImpl implements BookService {
             mapper.addBorrow(sid, bid);
         }
     }
-
+    //获取全部书籍（要看借阅状态的）
     @Override
     public Map<Book, Boolean> getBookList() {
         Set<Integer> set = new HashSet();
@@ -82,7 +83,7 @@ public class BookServiceImpl implements BookService {
             return map;
         }
     }
-
+    //删除书籍
     @Override
     public void deleteBook(int bid) {
         //创建当前数据库连接对象
@@ -91,7 +92,7 @@ public class BookServiceImpl implements BookService {
             mapper.deleteBook(bid);
         }
     }
-
+    //添加书籍
     @Override
     public void addBook(String title, String desc, double price) {
         //创建当前数据库连接对象

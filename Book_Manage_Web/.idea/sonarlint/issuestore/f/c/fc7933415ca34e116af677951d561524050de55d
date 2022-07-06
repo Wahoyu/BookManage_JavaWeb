@@ -1,0 +1,33 @@
+
+h
+java:S3776""RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¹Â·Š
+‡
+java:S1989$"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(Ó‹ÊÍüÿÿÿÿ
+n
+java:S19896"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Æ—¶øÿÿÿÿ
+n
+java:S1989E"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Æ—¶øÿÿÿÿ
+f
+java:S1989I"PHandle the following exception that could be thrown by "getWriter": IOException.(ÑÍı
+n
+java:S1989`"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Æ—¶øÿÿÿÿ
+u
+java:S1989e"_Handle the following exceptions that could be thrown by "doGet": ServletException, IOException.(ï¶ßû
+I
+java:S1128"4Remove this unused import 'com.book.dao.UserMapper'.(˜İÍw
+L
+java:S1128"1Remove this unused import 'com.book.eneity.User'.(·„Åëşÿÿÿÿ
+W
+java:S1128"ARemove this unused import 'org.apache.ibatis.session.SqlSession'.(ÅŒ‡
+_
+java:S11920"IDefine a constant instead of duplicating this literal "password" 3 times.(åŞÎœ
+a
+java:S11926"FDefine a constant instead of duplicating this literal "index" 3 times.(Æ—¶øÿÿÿÿ
+i
+java:S1192?"NDefine a constant instead of duplicating this literal "login-failure" 3 times.(’ù‡ßøÿÿÿÿ
+d
+java:S1192-"IDefine a constant instead of duplicating this literal "username" 3 times.(ø·ğşÿÿÿÿ
+J
+java:S10665"/Merge this if statement with the enclosing one.(œÏõæøÿÿÿÿ
+k	java:S117X"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÉëÇÛÿÿÿÿÿ
+f	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜Ìµ

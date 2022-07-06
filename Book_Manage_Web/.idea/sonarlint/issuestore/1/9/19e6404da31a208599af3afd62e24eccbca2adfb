@@ -1,0 +1,11 @@
+
+M
+java:S1854"8Remove this useless assignment to local variable "user".(Û¿¿l
+‡
+java:S1989"lHandle the following exception that could be thrown by "setCharacterEncoding": UnsupportedEncodingException.(Ó‹ÊÍüÿÿÿÿ
+>
+java:S1481")Remove this unused "user" local variable.(Û¿¿l
+n
+java:S1989%"SHandle the following exception that could be thrown by "sendRedirect": IOException.(Ä§…Éýÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾ß˜´ùÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼áÇÇÿÿÿÿÿ

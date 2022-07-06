@@ -39,7 +39,7 @@ public class IndexServlet extends HttpServlet {
         context.setVariable("nickname",user.getNickname());
         //借阅信息列表整个返回到前端
         context.setVariable("borrow_list",service.getBorrorList());
-        //完善主页
+        //完善主页的四百万美元的数据
         context.setVariable("book_count",service.getBookList().size());
         context.setVariable("student_count",service.getStudentList().size());
         context.setVariable("book_count",service.getBookList().size());
